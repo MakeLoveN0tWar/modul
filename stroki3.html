@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        var str = 'Я работаю, как краб';
+        var n = 5;
+
+        function truncate(b, maxlength) {
+            if (b.length > maxlength) {
+                return b.slice(0, maxlength) + '...';
+            }
+            return b;
+        }
+        var result = truncate(str, n);
+        document.write(result);
+    </script>
+</body>
+
+</html>
